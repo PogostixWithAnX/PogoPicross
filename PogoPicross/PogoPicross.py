@@ -872,13 +872,13 @@ def printLevelNumbers():
         thumby.display.drawText("31 32 33 34 35 36", 5, 15, 1)
         thumby.display.drawText("37 38 39 40 41 42", 5, 21, 1)
         thumby.display.drawText("43 44 45 46 47 48", 5, 27, 1)
-    if levelPage == 3:
-        pageOffset = 49
-        fontSmall()
-        thumby.display.drawText("49 50 51 52 53 54", 5, 9, 1)
-        thumby.display.drawText("55 56 57 58 59 60", 5, 15, 1)
-        thumby.display.drawText("61 62 63 64 65 66", 5, 21, 1)
-        thumby.display.drawText("67 68 69 70 71 72", 5, 27, 1)
+    #if levelPage == 3: #blank page, uncomment to add it back into game.
+        #pageOffset = 49
+        #fontSmall()
+        #thumby.display.drawText("49 50 51 52 53 54", 5, 9, 1)
+        #thumby.display.drawText("55 56 57 58 59 60", 5, 15, 1)
+        #thumby.display.drawText("61 62 63 64 65 66", 5, 21, 1)
+        #thumby.display.drawText("67 68 69 70 71 72", 5, 27, 1)
     #Feel free to add more pages here as needed in the same fashion, just remember to update the variable I pointed out in levelMenu()
 
 #Level selection menu
@@ -936,13 +936,13 @@ def levelMenu(): #Level selection menu
                     errorNoise()
             #bottom options
             if pointerSpr.x ==25 and pointerSpr.y ==33:
-                if levelPage > 1:
-                    levelPage -= 1 #Previous page
-                    thumby.display.update()
                 if levelPage == 1:
                     errorNoise()
+                else:
+                    levelPage += 1 #Previous page
+                    thumby.display.update()
             if pointerSpr.x == 1 and pointerSpr.y ==33:
-                if levelPage >2: #<----------- THIS VARIABE RIGHT HERE. Increase to add more pages.
+                if levelPage == 2: #<----------- THIS VARIABE RIGHT HERE. Increase to add more pages.
                     errorNoise()
                 else:
                     levelPage += 1 #Next page
