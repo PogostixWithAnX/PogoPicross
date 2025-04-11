@@ -2,7 +2,7 @@
 #An attempt at a Picross Game for the Thumby by Pogostix in 2025
 #ALWAYS OPEN TO CONSTRUCTIVE CRITIQUE! I'm @Pogostix in the Thumby Discord
 #Questions or Comments are also welcome.
-#Creative Commons ShareAlike 4.0. Feel free to edit, just give me credit.
+#Creative Commons Zero. Feel free to edit, just give me credit.
 
 #FAQ
     #1. Can I make my own levels?
@@ -12,7 +12,7 @@
     #2. Can I edit/adapt this?
         #YES, but be aware I'm 100% self taught and my code can be 
         #A Little Strange(tm) and Not Very Professional(tm)
-        #Just give me credit for the original and keep the CC SA 4.0
+        #Just give me credit for the original and keep the CC Zero
     #3. Your picross tutorial sucks.
         #I am aware, but if I wrote a bigger one, it would be like. 10+
         #screens of text to A through. If you want a better one: 
