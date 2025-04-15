@@ -37,6 +37,7 @@
 
 #KNOWN BUGS:
     #Grid Numbers draw all jumbled sometimes.
+        #NEED TO TEST ON COLOR
         #This appears to be limited to the emulator, something to do
         #with custom font files not playing happy with it. Never had
         #it happen on hardware. Not sure how to fix it.
@@ -178,7 +179,6 @@ def buttonMoveSound():
     thumby.audio.play(261, 100)
 
 def happyNoise():
-    thumby.audio.setEnabled(True)
     thumby.audio.play(1661, 100)
     time.sleep(0.2)
     thumby.audio.play(1661, 100)
